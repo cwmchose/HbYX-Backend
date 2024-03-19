@@ -1,0 +1,19 @@
+{
+  "name": "mongo-test",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+	  "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "mongodb": "^6.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
